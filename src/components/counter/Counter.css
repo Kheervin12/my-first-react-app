@@ -55,6 +55,7 @@ button {
 	background: green;
 	color: white;
 	cursor: pointer;
+	font-weight: bold;
 }
 
 .name_input {
