@@ -27,11 +27,13 @@ button {
 .button1 {
 	color: green;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .button2 {
 	color: red;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .button-div {
@@ -39,6 +41,24 @@ button {
   gap: 20px;
 }
 
+.first_form {
+	display: flex;
+	gap: 10px;
+}
+
 .submit_button {
-	padding: 2px;
+	padding: 5px;
+	background: white;
+}
+
+.submit_button:hover {
+	background: green;
+	color: white;
+	cursor: pointer;
+}
+
+.name_input {
+	padding: 4px;
+	border: none;
+	border-radius: 5px;
 }
